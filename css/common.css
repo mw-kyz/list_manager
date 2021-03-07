@@ -1,0 +1,41 @@
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1 {
+	margin: 0;
+	font-weight: normal;
+}
+
+ul {
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+input,
+button {
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+div,
+li {
+	box-sizing: border-box;
+}
+
+table {
+	/*去掉双边框*/
+	border-collapse: collapse;
+}
+
+th {
+	font-weight: normal;
+}
